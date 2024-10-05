@@ -1,4 +1,15 @@
+<<<<<<< HEAD
 [[redirects]]
 from = "/*"
 to = "/"
+=======
+[build]
+command = "npm run build"
+publish="path-to-react-app/build"
+base = "path-to-react-app"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+>>>>>>> 2be6a2fae522e8c580266b400b1e9ba47e6c2ba5
 status = 200
